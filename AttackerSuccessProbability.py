@@ -2,7 +2,7 @@ import math
 
 """ p rappresente la probabilità che un nodo onesto scopra il blocco successivo
     q è la probabilità che l'attaccante scopra il blocco successivo, ovvero la potenza totale di calcolo che controlla
-    z è la probabilità che l'attaccante recupery z blocchi di svantaggio """
+    z è la probabilità che l'attaccante recuperi z blocchi di svantaggio """
 
 def AttackerSuccessProbability(q, z):
     p = 1.0 - q
