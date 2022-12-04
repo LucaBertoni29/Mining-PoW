@@ -4,7 +4,7 @@ import math
     q è la probabilità che l'attaccante scopra il blocco successivo, ovvero la potenza totale di calcolo che controlla
     z è la probabilità che l'attaccante recuperi z blocchi di svantaggio """
 
-def AttackerSuccessProbability(q, z):
+def attackerSuccessProbability(q, z):
     p = 1.0 - q
     Lambda = z * (q / p)
     sum = 1.0
