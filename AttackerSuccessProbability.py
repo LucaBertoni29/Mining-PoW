@@ -24,4 +24,4 @@ print ("z |  P")
 print ("---------------------------------------------------------------------------")
 
 for i in range (10):
-        print(f"{i} {AttackerSuccessProbability(q, i):10f}")
+        print(f"{i} {attackerSuccessProbability(q, i):10f}")
